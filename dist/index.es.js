@@ -1,0 +1,1 @@
+import e,{useState as l}from"react";const a=a=>(l(!0),e.createElement("div",{className:"modal__wrapper"+(a.isOpen?" open":" close"),style:{...a.style}},e.createElement("div",{className:"modal__dialog"},e.createElement("div",{className:"modal__close",onClick:a.isClose},"✕"),e.createElement("h2",null,a.title),a.children)));export{a as Modal};
