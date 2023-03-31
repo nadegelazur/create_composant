@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
+
 export const Modal = (props) => {
 
     const [modal, setModal] = useState(true)
